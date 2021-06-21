@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-((kmz1nm17)w^jke06m0mz+4yj9b9ame#qt*b^60%z0at##5u&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'breederconnect',
+]
 
 
 # Application definition
